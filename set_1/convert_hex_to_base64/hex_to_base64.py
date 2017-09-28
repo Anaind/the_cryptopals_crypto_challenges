@@ -1,0 +1,7 @@
+import base64
+
+input_hex_value = b"49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
+output_base64_value = base64.b64encode(input_hex_value)
+
+print(input_hex_value)
+print(output_base64_value)
